@@ -65,7 +65,7 @@ tabGroup.addTab(tab2);
 // open tab group
 tabGroup.open();
 
-var TwitterApp = require('model/twitter');
+var TwitterApp = require('model/twitter_adapter');
 Ti.App.Twitter = new TwitterApp({
 	app_key : 'mqGVpZ4Z2glj1VR4XXVbw',
 	app_secret : 'VzpAMvX7LV9EM94pFGddvK87zo2s7ZUxL7z8gWHzo'

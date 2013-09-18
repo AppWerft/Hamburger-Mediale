@@ -8,7 +8,6 @@ Twitter.prototype.init = function(_options) {
 	var Codebird = require("vendor/codebird");
 	this.cb = new Codebird();
 	this.cb.setConsumerKey(_options.app_key,_options.app_secret);
-	
 	var bearerToken = Ti.App.Properties.getString('TwitterBearerToken', null);
 	var self = this;
 	if (bearerToken == null) {
