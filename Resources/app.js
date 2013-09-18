@@ -67,8 +67,8 @@ tabGroup.open();
 
 var TwitterApp = require('model/twitter');
 Ti.App.Twitter = new TwitterApp({
-	api : 'mqGVpZ4Z2glj1VR4XXVbw',
-	appsecret : 'VzpAMvX7LV9EM94pFGddvK87zo2s7ZUxL7z8gWHzo'
+	app_key : 'mqGVpZ4Z2glj1VR4XXVbw',
+	app_secret : 'VzpAMvX7LV9EM94pFGddvK87zo2s7ZUxL7z8gWHzo'
 });
 
 Ti.App.Twitter.fetch('search_tweets', '#medialehh', function() {
